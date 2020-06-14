@@ -1,6 +1,7 @@
 # NoteTakingApp
 In this app,I signup &amp; login using firebase .
 here features like reset password,update password, update email,update and set profile.
+# Dependencies
 dependency use for circle profile pic:
 dependencies {
     ...
@@ -17,15 +18,15 @@ Add to xml file:-
     app:civ_border_color="#FF000000"/>
     https://github.com/hdodenhof/CircleImageView
  
- Animations dependency using in this project:-
- implementation "androidx.dynamicanimation:dynamicanimation:1.0.0"
+ -Animations dependency using in this project:-
+ -implementation "androidx.dynamicanimation:dynamicanimation:1.0.0"
  -https://developer.android.com/guide/topics/graphics/spring-animation
- glide dependency use in this project:-
- implementation 'com.github.bumptech.glide:glide:4.11.0'
- Firebase dependency using:-
-  implementation 'com.google.firebase:firebase-auth:19.3.1'
-  implementation 'com.google.firebase:firebase-database:19.3.0'
-  implementation 'com.google.firebase:firebase-storage:19.1.1'
+ -glide dependency use in this project:-
+ -implementation 'com.github.bumptech.glide:glide:4.11.0'
+ -Firebase dependency using:-
+  -implementation 'com.google.firebase:firebase-auth:19.3.1'
+  -implementation 'com.google.firebase:firebase-database:19.3.0'
+  -implementation 'com.google.firebase:firebase-storage:19.1.1'
   
   add your project build.gradle(module app)
   
